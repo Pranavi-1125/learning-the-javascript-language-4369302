@@ -10,10 +10,10 @@ var animal = {
 };
 animal;
 
-var animal2 = animal;
-animal2;
+var animal2 = animal; // Assigning object to a new one
+animal2; // But both animal and animal2 are pointing to the same memory 
 
-animal2.genus = "ursus";
+animal2.genus = "ursus"; // If made changes in one then the other gets changed too
 animal2;
 animal;
 
