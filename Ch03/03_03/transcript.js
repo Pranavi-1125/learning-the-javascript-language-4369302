@@ -9,22 +9,22 @@ var bird = {
 	deadly : false
 };
 
-bird.quote;
+bird.quote; // one way of retrieving the value
 
 bird."quote"; // this does not work
 
-bird["quote"];
+bird["quote"]; // Another way of retrieving the value
 
-bird.color = "black";
+bird.color = "black"; // Creating a new key and value
 
 bird;
 
-bird["where it lives"] = "in a tree";
+bird["where it lives"] = "in a tree"; // If we want to have a key with spaces then we can do in this way
 bird.whereItLives = "in a tree";
 bird.whereItLives;
 bird['whereItLives'];
 
-delete bird.color;
+delete bird.color; // Deleting a key
 bird;
 
 // More info:
