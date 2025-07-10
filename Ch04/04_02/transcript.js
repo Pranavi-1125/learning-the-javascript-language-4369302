@@ -36,11 +36,11 @@ counter;
 
 counter *= 2;
 
-"cat" + "dog";
+"cat" + "dog"; //catdog
 "cat " + "dog";
 "cat" + " and " + "dog";
 
-"1" + "2";
+"1" + "2"; //12
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Expressions_and_Operators#Arithmetic_operators
