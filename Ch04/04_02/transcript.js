@@ -16,10 +16,16 @@ const totalResults = 254;
 totalResults % perPage;
 
 var counter = 0;
-counter = counter + 1;
+counter = counter + 1; //counter = 2
 
-counter += 1;
-counter++;
+counter += 1; //counter = 3
+counter++; // counter = 4 but it returns 3 but if we ask what is counter value then it gives 4, the value is updated later. 
+//Its like
+//counter = 3;
+// counter;
+// > 3
+// counter;
+// > 4
 
 counter += 5;
 counter += -4;
