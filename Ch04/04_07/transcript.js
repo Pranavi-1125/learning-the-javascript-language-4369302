@@ -1,3 +1,5 @@
+//Topic - Terse ifs: Terneries
+
 var animal = "cat";
 // animal = 'dog';
 
