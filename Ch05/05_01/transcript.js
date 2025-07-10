@@ -12,14 +12,15 @@ var pageNames = [
   "Blog"
 ];
 for (i = 0; i < pageNames.length; i += 1) {
-  if (document.title === pageNames[i]) {
+  if (document.title === pageNames[i]) { // In HTML code, there is a document title = "JavaScript Playground".
     console.log("We ARE here: " + pageNames[i]);
+    break;
   } else {
     console.log("We are not here: " + pageNames[i]);
   }
 }
 
-// don't repeat yourself:
+// don't repeat yourself:// This is efficient than above one because pageNames[i] is repeating many times
 var pageNames = [
   "Home",
   "About Us",
