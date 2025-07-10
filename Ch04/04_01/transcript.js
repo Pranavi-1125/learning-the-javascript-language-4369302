@@ -1,6 +1,8 @@
 var one = 1,
   two = 2;
 
+//The === operator compares values and data types, while the == operator compares only values.
+
 one === one; // true
 one !== one; // false
 one !== two; // true
