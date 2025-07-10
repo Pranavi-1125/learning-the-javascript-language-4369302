@@ -20,7 +20,7 @@ while (myItem !== false) {
       myList.length +
       " items now. This loop will keep going until we pop a false."
   );
-  myItem = myList.pop();
+  myItem = myList.pop(); // It pops the last element 
 }
 
 var counter = 1;
