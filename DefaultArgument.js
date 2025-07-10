@@ -8,7 +8,7 @@ speakSomething("Good morning", 5);
 speakSomething("Good morning");
 speakSomething();
 
-function addingMachine() {
+function addingMachine() { // Even though there are no arguments but there is a default OwnProperty where it can take many arguments.
   // initialize the total we'll be returning
   var total = 0;
 
