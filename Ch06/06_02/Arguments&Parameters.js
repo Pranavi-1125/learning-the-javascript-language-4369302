@@ -10,7 +10,7 @@ function fuddify(speech) {
   }
 
   // otherwise, make it sound like Elmer Fudd
-  speech = speech.replace(/r/g, "w");
+  speech = speech.replace(/r/g, "w"); //  /r/ - checks whetehr 'r' is present or not and 'g' is global flag which is used to move forward even though we have found one 'r'.
   speech = speech.replace(/R/g, "W");
 
   return speech;
