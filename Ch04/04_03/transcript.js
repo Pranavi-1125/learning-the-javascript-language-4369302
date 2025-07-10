@@ -14,8 +14,8 @@ animal1 === "monkey" || animal2 === "bear"; // true
 animal1 === "ape" || animal2 === "bear"; // true
 animal1 === "ape" || animal2 === "ostrich"; // false
 
-animal1 === "monkey" || animal2 === "monkey" && animal3 === "tiger";
-(animal1 === "monkey" || animal2 === "monkey") && animal3 === "tiger";
+animal1 === "monkey" || animal2 === "monkey" && animal3 === "tiger"; //Here &&s are evaluated 1st and the ||s are evaluated
+(animal1 === "monkey" || animal2 === "monkey") && animal3 === "tiger"; // Here brackets ones are evaluated 1st
 
 !true; // false
 !false; // true
