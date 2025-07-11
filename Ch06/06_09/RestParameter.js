@@ -1,6 +1,6 @@
 // function addingMachine(...terms)
 
-function addingMachine(...terms) {
+function addingMachine(...terms) { // Parameter is an array
   // initialize the total we'll be returning
   var total = 0;
 
@@ -20,8 +20,8 @@ function addingMachine(...terms) {
   return total;
 }
 
-function bake(temp = 350, time = 35, ...flavors) {
-  console.log(`Let's bake this cake at ${temp} degrees,`);
+function bake(temp = 350, time = 35, ...flavors) { //Here flavours is an array that carries as many inputs as possible can be given
+  console.log(`Let's bake this cake at ${temp} degrees,`); //String literal prininting using Back tick(``)
   console.log(`for ${time} minutes\n`);
   
   if (flavors.length > 0) {
