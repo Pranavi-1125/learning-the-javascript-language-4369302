@@ -25,7 +25,7 @@ let isEven = (num) => {
 };
 
 // or:
-isEven = (num) => num % 2 === 0;
+isEven = (num) => num % 2 === 0; // num % 2 === 0 is returned here
 
 // And most succinctly:
 // prettier-ignore
