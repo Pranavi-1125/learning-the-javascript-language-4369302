@@ -10,11 +10,11 @@ var speakSomething = function(what = 'Speaking!') {
   }
 };
 
-setTimeout(speakSomething, 5000);
+setTimeout(speakSomething, 5000); // This allows the function to happen after 5000milliseconds = 5 Seconds
 
 var obj = {
-  sayHello: function() {
-    console.log("Hello");
+  sayHello: function() {  // This is an object and sayHello is key and this function is the value
+    console.log("Hello");  
   }
 };
 
