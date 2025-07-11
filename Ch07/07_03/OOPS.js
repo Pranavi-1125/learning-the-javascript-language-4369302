@@ -4,7 +4,7 @@
 
 let Cake = {};
 
-Cake.prototype.bake = function(temp, minutes) {
+Cake.prototype.bake = function(temp, minutes) {  // Bake function inheriting Cake class
   // Bake a cake at a particular temperature
   // for a number of minutes
 }
