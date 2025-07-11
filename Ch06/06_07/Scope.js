@@ -12,7 +12,7 @@ function randomizer(limit) {
   var myNum = randomNumber;
 
   console.log("Local myNum is", myNum);
-  console.log("Global myNum is", global.myNum);
+  console.log("Global myNum is", global.myNum); //Here by using 'global' we are calling the global myNum value
 
   console.log("Our result is", myResult);
 
